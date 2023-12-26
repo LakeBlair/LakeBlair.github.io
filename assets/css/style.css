@@ -1071,6 +1071,25 @@ section {
   }
 }
 
+.cv-download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px 0;
+  background-color: #e49503;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.cv-download-button:hover {
+  background-color: #0576c2;
+}
+
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
