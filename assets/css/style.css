@@ -1089,6 +1089,30 @@ section {
   background-color: #0576c2;
 }
 
+.course-section h2 {
+  font-size: 22px;
+  color: #333;
+  border-bottom: 2px solid #333;
+  padding-bottom: 3px;
+}
+
+.course-item h3 {
+  font-size: 18px;
+  color: #333;
+}
+
+.course-item .date {
+  font-style: italic;
+  color: #666;
+}
+
+.course-item p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+}
+
+
 
 /*--------------------------------------------------------------
 # Footer
