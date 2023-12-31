@@ -1089,39 +1089,52 @@ section {
   background-color: #0576c2;
 }
 
-.coursework .section-title h2 {
-  color: #495057; /* Replace with your preferred color */
-  font-size: 2.2rem; /* Adjust the size as needed */
-  margin-bottom: 1rem;
+.coursework {
+  background: #f5f5f7; /* Apple-like background */
+  padding: 20px;
+  border-radius: 10px;
 }
 
-.coursework-list {
-  list-style-type: none; /* Removes default bullet points */
-  padding-left: 0;
+.course-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-.coursework-list li {
-  font-size: 1.1rem; /* Adjust the size as needed */
-  color: #495057; /* Replace with your preferred color */
-  padding: 0.25rem 0;
-  position: relative;
+.course {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #e1e1e6;
 }
 
-.coursework-list li:before {
-  content: "\2022";  /* Unicode for bullet symbol */
-  color: #007bff;    /* Replace with your preferred color */
+.course:last-child {
+  border-bottom: none;
+}
+
+.course-code {
   font-weight: bold;
-  display: inline-block; 
-  width: 1em;
-  margin-left: -1em;
+  color: #0071e3; /* Apple-like blue */
+  font-family: 'Helvetica Neue', sans-serif;
+  margin-right: 10px;
 }
 
-.grade {
-  font-weight: bold;
-  color: #17a2b8; /* Replace with your preferred color for the grade */
-  margin-left: 0.5em;
-  font-size: 1rem;
+.course-name {
+  flex-grow: 1;
+  font-family: 'Helvetica Neue', sans-serif;
 }
+
+.course-grade {
+  font-weight: bold;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.in-progress {
+  color: #ff9500; /* Apple-like orange for 'In Progress' */
+  font-style: italic;
+}
+
 
 
 
